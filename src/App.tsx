@@ -1,8 +1,13 @@
 import React from 'react';
+import {Provider} from "react-redux"
+import {store} from "./store/store";
+import AppRouter from "./components/AppRouter";
 
 function App() {
   return (
-    <div>Hello World</div>
+      <Provider store={store}>
+          <AppRouter/>
+      </Provider>
   );
 }
 

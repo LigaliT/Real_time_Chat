@@ -1,4 +1,4 @@
-import Login from "../components/Login";
+import Login from "../views/Login";
 
 interface routeTypes {
     path: string;

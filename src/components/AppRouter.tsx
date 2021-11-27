@@ -1,6 +1,5 @@
 import React from 'react';
 import {routesArray} from "../utils/routes";
-import {} from "react-router-dom"
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 const AppRouter = () => {

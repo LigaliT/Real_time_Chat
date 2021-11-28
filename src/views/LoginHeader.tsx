@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "../assets/scss/Login.module.scss"
 
-const LoginHeader = () => {
+const LoginHeader  : React.FC = () => {
     return (
         <div className={styles.header}>
             <h2>

@@ -3,7 +3,7 @@ import styles from "../assets/scss/Login.module.scss"
 import LoginHeader from "./LoginHeader";
 import LoginForm from "./LoginForm";
 
-const Login = () => {
+const Login : React.FC = () => {
     return (
         <div className={styles.login}>
             <LoginHeader/>

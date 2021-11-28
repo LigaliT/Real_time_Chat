@@ -1,4 +1,5 @@
 import Login from "../views/Login";
+import ChatDashboard from "../views/ChatDashboard";
 
 interface routeTypes {
     path: string;
@@ -10,8 +11,8 @@ export const routesArray:routeTypes[] = [
         path: '/',
         component: <Login/>,
     },
-    // {
-    //     path: '/chat',
-    //     component: ChatDashboard,
-    // }
+    {
+        path: '/chat',
+        component: <ChatDashboard/>,
+    }
 ];
